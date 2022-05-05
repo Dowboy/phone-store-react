@@ -12,7 +12,7 @@ const Landing = () => {
             <h2>
               Find your new phone with <span className="red">Seb Phones</span>
             </h2>
-            <Link to="#recent">
+            <Link to="/phones">
               <button className="btn">Browse phones</button>
             </Link>
           </div>
