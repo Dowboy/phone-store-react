@@ -10,6 +10,8 @@ export const phones = [
     rating: 5,
     reviews: 37,
     os: "iOS",
+    summary: "",
+    colors: "Sierra Blue, Gold, Silver, Graphite, and Alpine Green",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ export const phones = [
     rating: 4.5,
     reviews: 30,
     os: "iOS",
+    summary: "",
+    colors: "Pink, Blue, Midnight, Starlight, Red, and Green",
   },
   {
     id: 3,
@@ -30,6 +34,8 @@ export const phones = [
     rating: 4.5,
     reviews: 17,
     os: "iOS",
+    summary: "",
+    colors: "White, Black, Blue, Green, Red, and Purple",
   },
   {
     id: 4,
@@ -40,6 +46,8 @@ export const phones = [
     rating: 4.5,
     reviews: 21,
     os: "iOS",
+    summary: "",
+    colors: "White, Black, Blue, Green, and Purple",
   },
   {
     id: 5,
@@ -50,6 +58,8 @@ export const phones = [
     rating: 5,
     reviews: 26,
     os: "iOS",
+    summary: "",
+    colors: "Black, Purple, Green, White, and Red",
   },
   {
     id: 6,
@@ -60,6 +70,8 @@ export const phones = [
     rating: 5,
     reviews: 6,
     os: "Android",
+    summary: "",
+    colors: "Black",
   },
   {
     id: 7,
@@ -70,6 +82,8 @@ export const phones = [
     rating: 5,
     reviews: 12,
     os: "Android",
+    summary: "",
+    colors: "Phantom Gray, Phantom Violet, Phantom Pink, and Phantom White",
   },
   {
     id: 8,
@@ -80,6 +94,8 @@ export const phones = [
     rating: 4.5,
     reviews: 18,
     os: "Android",
+    summary: "",
+    colors: "Pink Gold, Phantom White, Phantom Black, and Green",
   },
   {
     id: 9,
@@ -90,6 +106,8 @@ export const phones = [
     rating: 4,
     reviews: 29,
     os: "Android",
+    summary: "",
+    colors: "Stormy Black, and Sorta Seafoam",
   },
   {
     id: 10,
@@ -100,6 +118,8 @@ export const phones = [
     rating: 5,
     reviews: 32,
     os: "iOS",
+    summary: "",
+    colors: "Midnight, Starlight, and Product Red",
   },
   {
     id: 11,
@@ -110,6 +130,8 @@ export const phones = [
     rating: 4,
     reviews: 7,
     os: "Android",
+    summary: "",
+    colors: "Prism Dot Black",
   },
   {
     id: 12,
@@ -120,5 +142,7 @@ export const phones = [
     rating: 5,
     reviews: 36,
     os: "iOS",
+    summary: "",
+    colors: "Silver, Green, Gray, and Gold",
   },
 ];

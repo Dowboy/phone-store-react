@@ -52,6 +52,9 @@ const PhoneInfo = ({ phones, addToCart, cart }) => {
                     quasi praesentium pariatur repellendus placeat vitae
                     tenetur!
                   </p>
+                  <h3 className="phone__colors__title">Colors:</h3>
+                  <br />
+                  <p className="phone__colors">{phone.colors}</p>
                 </div>
                 {phoneExistsOnCart() ? (
                   <Link
