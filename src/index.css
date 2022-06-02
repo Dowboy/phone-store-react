@@ -683,6 +683,22 @@ select {
   font-weight: 500;
 }
 
+.phone__color {
+  border: 2px solid black;
+  padding: 10px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 90px;
+  text-align: center;
+  transition: all 200ms ease;
+}
+
+.phone__color:hover {
+  cursor: pointer;
+  border: 2px solid #a60000;
+  color: #a60000;
+}
+
 /* 
 
   CART 

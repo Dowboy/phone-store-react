@@ -1,5 +1,7 @@
 // FAKE DATA
 
+import { buildQueries } from "@testing-library/react"
+
 export const phones = [
   {
     id: 1,
@@ -11,7 +13,7 @@ export const phones = [
     reviews: 37,
     os: "iOS",
     summary: "",
-    colors: "Sierra Blue, Gold, Silver, Graphite, and Alpine Green",
+    colors: ["Sierra Blue,", "Gold,", "Silver,", "Graphite,", "Alpine Green"],
   },
   {
     id: 2,

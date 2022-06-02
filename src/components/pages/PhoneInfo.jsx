@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Phone from "../ui/Phone";
 import Price from "../ui/Price";
 import Rating from "../ui/Rating";
+import Colors from "../ui/Colors";
 
 const PhoneInfo = ({ phones, addToCart, cart }) => {
   const { id } = useParams();
@@ -54,7 +55,7 @@ const PhoneInfo = ({ phones, addToCart, cart }) => {
                   </p>
                   <h3 className="phone__colors__title">Colors:</h3>
                   <br />
-                  <p className="phone__colors">{phone.colors}</p>
+                  <p className="phone__colors"><Colors /></p>
                 </div>
                 {phoneExistsOnCart() ? (
                   <Link
