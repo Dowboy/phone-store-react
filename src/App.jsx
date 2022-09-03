@@ -8,6 +8,7 @@ import { phones } from "./data";
 import PhoneInfo from "./components/pages/PhoneInfo";
 import Cart from "./components/pages/Cart";
 import { useState, useEffect } from "react";
+// test
 
 function App() {
   const [cart, setCart] = useState([]);
